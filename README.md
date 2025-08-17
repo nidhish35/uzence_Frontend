@@ -23,13 +23,20 @@ This repository contains two reusable UI components (**InputField** and **DataTa
 4. npm run dev
 5. npm run storybook
 
+---
+
 Approach
-Scalable folder structure – components/ holds all reusable UI.
-Reusable design – Components are typed with TypeScript, styled with Tailwind, and designed to be reusable in larger apps.
-Documentation – Each component is documented in Storybook with different states (default, error, loading, empty, selectable).
-Accessibility – Components use ARIA attributes (aria-invalid) for screen readers.
-Testing readiness – Structure allows easy integration with Jest/React Testing Library for unit tests.
-Deployment-ready – Storybook can be deployed via Chromatic or Vercel for preview.
+1. Scalable folder structure – components/ holds all reusable UI.
+2. Reusable design – Components are typed with TypeScript, styled with Tailwind, and designed to be reusable in larger apps.
+3. Documentation – Each component is documented in Storybook with different states (default, error, loading, empty, selectable).
+4. Accessibility – Components use ARIA attributes (aria-invalid) for screen readers.
+5. Testing readiness – Structure allows easy integration with Jest/React Testing Library for unit tests.
+6. Deployment-ready – Storybook can be deployed via Chromatic or Vercel for preview.
+
+
+
+
+
 
 
 
